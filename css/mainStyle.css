@@ -1,0 +1,101 @@
+body {
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.bgChange div {
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+}
+
+.bg1 {
+    background: url("../images/bg1.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.bg2 {
+    background: url("../images/bg2.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.bg3 {
+    background: url("../images/bg3.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.bg4 {
+    background: url("../images/bg4.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.bg5 {
+    background: url("../images/bg5.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.bg6 {
+    background: url("../images/bg6.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.bg7 {
+    background: url("../images/bg7.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.navbar-brand {
+    font-size: 16pt;
+    z-index: 4;
+}
+
+.thumbnail {
+    z-index: 5;
+    position: relative;
+    width: 375px;
+    height: 500px;
+    opacity: 0.8;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.thumbnail:hover {
+    transform: scale(1.05);
+    zoom: 1;
+}
+
+.whiteFont {
+    color: white;
+    font-weight: bold;
+}
+
+.redFont {
+    color: red;
+    font-weight: bold;
+}
+
+.navbar-header {
+    display: inline;
+    line-height: 35px;
+}
+
+.navbar-header a {
+    padding-left: 50px;
+    line-height: 40px;
+}
+
+.navbar-nav li a {
+    display: block;
+    height: 75px;
+    line-height: 40px;
+    text-align: center;
+}
